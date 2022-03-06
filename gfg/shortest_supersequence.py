@@ -1,7 +1,9 @@
 #User function Template for python3
 
 class Solution:
-    
+    """
+    https://www.geeksforgeeks.org/shortest-common-supersequence/
+    """
     #Function to find length of shortest common supersequence of two strings.
     def shortestCommonSupersequence(self, X, Y, m, n):
         DP = [[0 for _ in range(n+1)] for _ in range(m+1)]
